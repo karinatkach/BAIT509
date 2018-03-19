@@ -5,6 +5,7 @@ Number of datasets we create through bootstrapping + number of variables we limi
 •	Suppose you have the following paired data of (x,y): (1,2), (1,5), (2,0). Which of the following are valid bootstrapped data sets? Why/why not?
 i.	(1,0), (1,2), (1,5) – not valid; (1,0) observation is actually not present in the dataset we are given
 ii.	(1,2), (2,0) –valid; both observations in the new dataset are present in the original dataset.
+#actually not valid as the sample size is not equal to n - original size
 iii.	(1,2), (1,2), (1,5) –valid; all observations in the new dataset are present in the original dataset and repeating values are acceptable. 
 •	For each of the above valid bootstapped data sets, which observations are out-of-bag (OOB)?
 ii. (1,2), (2,0) – the out of bag observation is (1,5)
