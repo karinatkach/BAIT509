@@ -1,0 +1,12 @@
+1.Construct the decision rule according to this classification boundary. How would you classify a new observation that has $x_1=6$ and $x_2=10$?
+x1>7.5 => B, x1<7.5 => A; obs. that has x1=6 and x2=10 I would classify as A
+2.What size is the margin here?
+size of the margin is 2
+3. Which observations receive a penalty? Which observations are the support vectors?
+6,7,8,9,10 receive a penalty; observation 8 is the support vector
+4. What is the total penalty here?
+total penalty is 11.5
+5. Can I choose a bigger margin if my total allowable penalty is 6?
+no the margin actually has to be smaller for this decision boundary to achieve a penalty of 6
+6. Are the data separable? If so, what are the support vectors?
+yes the data is separable; support vectors are 8,4, and 9
