@@ -7,6 +7,6 @@ size of the margin is 2
 4. What is the total penalty here?
 total penalty is 5.75
 5. Can I choose a bigger margin if my total allowable penalty is 6?
-yes
+yes as incresing the margin by 0.5 does not misclassify more observations
 6. Are the data separable? If so, what are the support vectors?
 yes the data is separable; support vectors are 8,4, and 9
